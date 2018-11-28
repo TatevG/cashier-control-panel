@@ -1,0 +1,26 @@
+.privateMain {
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        margin-top: 8px;
+        border-bottom: 1px solid black;
+        .logout{
+            .btn{
+                background-color: #7b7b7b;
+                border: 1px solid #7b7b7b;
+                border-radius: 5px;
+                width: 90px;
+                height: 45px;
+                margin: 5px;
+                color: #ffffff;
+                transition: .5s;
+                &:hover{
+                    cursor: pointer;
+                    color: #7b7b7b;
+                    background-color: #ffffff;
+                }
+            }
+        }
+    }
+}

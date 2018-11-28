@@ -1,0 +1,80 @@
+.request{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    .inputFields{
+        display: block;
+        width: 100%;
+        text-align: center;
+        input, textarea{
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #8b8b8b;
+            padding: 10px;
+            width: 65%;
+            outline: none;
+            resize: none;
+            &.error{
+                border-bottom: 1px solid red !important;
+            }
+        }
+        div{
+            width: 99%;
+            margin: auto;
+            label{
+                color: #7b7b7b;
+                border: 1px solid #8b8b8b;
+                border-right: 0;
+                border-bottom-left-radius: 5px;
+                border-top-left-radius: 5px;
+                padding: 10px 0 10px 10px;
+                font-size: 13px;
+            }
+            #phoneNumber{
+                width: 63%;
+                border-left: none;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+    }
+    .buttons {
+        height: 50px;
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        margin-top: 15px;
+        justify-content: space-around;
+        margin-bottom: 25px;
+        .btn{
+            background-color: #757575;
+            cursor: pointer;
+            width: 25%;
+            border: none;
+            border-radius: 5px;
+            color: #ffffff;
+            &:hover{
+                color: #757575;
+                background: white;
+                border: 1px solid #757575;
+                a{
+                    color: #757575;
+                }
+            }
+            a{
+                display: block;
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .btn:last-child{
+            &:enabled{
+                background-color: blueviolet;
+                color: white;
+            }
+        }
+    }
+}
