@@ -1,1 +1,1 @@
-# cCashier Control Panel
+# Cashier Control Panel
